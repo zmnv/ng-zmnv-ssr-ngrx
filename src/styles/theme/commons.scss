@@ -1,0 +1,40 @@
+@import '../vars/entry';
+
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+/* body */
+.hs-theme {
+  @extend .font-family-brand;
+  @extend .font-weight-light;
+  @extend .font-size-normal;
+
+  background: #fff;
+  color: $whiten-75;
+  margin: 0; padding: 0;
+
+  min-width: 310px;
+}
+
+/* native text styles */
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $brand-link;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: $brand-link-hover;
+  }
+
+  &:active {
+    color: $brand-red;
+  }
+
+}

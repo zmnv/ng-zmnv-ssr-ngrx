@@ -1,0 +1,61 @@
+$brand-black: #000000;
+$brand-subblack: rgba(0, 0, 0, .9);
+$brand-white: #FFFFFF;
+
+$brand-highlight: #FBF6EA;
+
+$brand-link: #0080ED;
+$brand-link_hover: #FF701F;
+$brand-link_hover-smooth: #bd6c3d;
+$brand-link_active: #B94707;
+
+$brand-primary: #396C8F;
+$brand-red: #FF4E46;
+
+$helper-detect: rgba(255, 0, 0, .16);
+
+$darken-85: rgba(0,0,0,.85);
+$darken-75: rgba(0,0,0,.75);
+$darken-54: rgba(0,0,0,.54);
+$darken-48: rgba(0,0,0,.48);
+$darken-32: rgba(0,0,0,.32);
+$darken-16: rgba(0,0,0,.16);
+$darken-8: rgba(0,0,0,.08);
+$darken-6: rgba(0,0,0,.06);
+$darken-4: rgba(0,0,0,.04);
+$darken-2: rgba(0,0,0,.02);
+
+$whiten-85: rgba(255,255,255,.85);
+$whiten-75: rgba(255,255,255,.75);
+$whiten-64: rgba(255,255,255,.64);
+$whiten-54: rgba(255,255,255,.54);
+$whiten-48: rgba(255,255,255,.48);
+$whiten-32: rgba(255,255,255,.32);
+$whiten-16: rgba(255,255,255,.16);
+$whiten-8: rgba(255,255,255,.08);
+$whiten-6: rgba(255,255,255,.06);
+$whiten-4: rgba(255,255,255,.04);
+$whiten-2: rgba(255,255,255,.02);
+
+$sand-background: #FBF6EA;
+$sand-item: #F1E2BF;
+$sand-item-active: #EBCE88;
+$sand-item-shadow: #AFA387;
+
+$sand-scroll: #d6c9ab;
+$sand-scroll-hover: #ccbb96;
+$sand-scroll-active: #a99d83;
+
+$sand-dark-background: #E8D2A5;
+$sand-dark-thumb: #C5A455;
+$sand-dark-thumb-hover: rgb(158, 135, 80);
+
+$menu-link: #cee8fb;
+
+.overlay-gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+55,000000+100&0.43+1,0.22+55,0.14+100 */
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.43) 0%, rgba(0,0,0,0.43) 1%, rgba(0,0,0,0.22) 55%, rgba(0,0,0,0.14) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.43) 0%,rgba(0,0,0,0.43) 1%,rgba(0,0,0,0.22) 55%,rgba(0,0,0,0.14) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.43) 0%,rgba(0,0,0,0.43) 1%,rgba(0,0,0,0.22) 55%,rgba(0,0,0,0.14) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e000000', endColorstr='#24000000',GradientType=0 ); /* IE6-9 */
+}

@@ -1,0 +1,40 @@
+{
+    "itemList": [
+        {
+            "id": 0,
+            "slug": "honey-one",
+            "title": "Мёд 1 пробы",
+            "description": "Освежает, бодрит, уносит...",
+            "price": 1800,
+            "inStock": 5,
+            "images": [
+                {
+                    "size": "thumbnail",
+                    "fileName": "https://5.imimg.com/data5/OX/VQ/MY-37032104/fresh-honey-500x500.jpg"
+                },
+                {
+                    "size": "original",
+                    "fileName": "https://i2.wp.com/thecostaricanews.com/wp-content/uploads/2018/03/Honey.jpg?fit=1395%2C720&ssl=1"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "slug": "honey-two",
+            "title": "Мёд 2 пробы",
+            "description": "Тоже прикольный",
+            "price": 600,
+            "inStock": 10,
+            "images": [
+                {
+                    "size": "thumbnail",
+                    "fileName": "https://t4.ftcdn.net/jpg/01/82/70/35/240_F_182703546_AYKzG1KDAlvC4X1gnZAYVuOm9XHd984A.jpg"
+                },
+                {
+                    "size": "original",
+                    "fileName": "https://iegvu.agribusinessintelligence.informa.com/-/media/agri-article-media/stock-images/processed-commodities/spices-exotics-oils/honey/honey_dripping_556744918_1200.jpg?w=790&hash=03F5A3B1931A57CB17E7FD72544E3D6D1A11E8F8"
+                }
+            ]
+        }
+    ]
+}

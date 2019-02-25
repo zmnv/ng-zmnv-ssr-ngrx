@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Geometria Bold";
+  src: url('/assets/fonts/Geometria-Bold.woff') format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geometria Medium";
+  src: url('/assets/fonts/Geometria-Medium.woff') format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+font-family: "Geometria Regular";
+src: url('/assets/fonts/Geometria-Regular.woff') format("woff");
+font-weight: 400;
+font-style: normal;
+}
+
+$theme-font-family: 'Geometria Regular', sans-serif;
+
+.font-family-brand {
+  font-family: $theme-font-family;
+  line-height: 1.45;
+}
+
+/* ————————————————— Font Weight ————————————————— */
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-regular {
+  font-weight: 400;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+/* ————————————————— Font Size ————————————————— */
+
+.font-size-micro {
+  font-size: 13px;
+}
+
+.font-size-small {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.font-size-normal {
+  font-size: 16px;
+}
+
+.font-size-medium {
+  font-size: 18px;
+}
+
+.font-size-large {
+  font-size: 24px;
+}
+
+.font-size-extra-large {
+  font-size: 32px;
+}

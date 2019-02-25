@@ -1,0 +1,75 @@
+# top-most EditorConfig file
+root = true
+
+# All files
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+# CSHARP
+[*.cs]
+indent_style = space
+indent_size  = 4
+
+# HTML, Razor
+[*.{html,html,cshtml}]
+indent_style = space
+indent_size  = 4
+
+# SASS
+[*.{sass,scss}]
+indent_style = space
+indent_size  = 2
+
+# SSS
+[*.{sss}]
+indent_style = space
+indent_size  = 2
+
+
+# JADE
+[*.jade]
+indent_style = space
+indent_size  = 2
+
+# PUG
+[*.PUG]
+indent_style = space
+indent_size  = 2
+
+# CSS
+[*.css]
+indent_style = space
+indent_size  = 4
+
+
+# JAVASCRIPT
+[*.{js,ts}]
+indent_style = space
+indent_size  = 2
+
+[*.jsx]
+indent_style = space
+indent_size  = 2
+
+# CoffeeScript
+[*.coffee]
+indent_style = space
+indent_size  = 2
+
+
+# JSON
+[*.json]
+indent_style = space
+indent_size  = 4
+
+# YAML
+[*.yaml]
+indent_style = space
+indent_size  = 2
+
+# XML
+[*.{xml,svg}]
+indent_style = space
+indent_size  = 4
