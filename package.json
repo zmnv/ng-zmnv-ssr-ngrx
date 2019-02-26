@@ -1,7 +1,7 @@
 {
   "name": "ng-zmnv-ssr-ngrx",
-  "description": "Культурное пространство сибири. Angular SSR, NGRX, Materila",
-  "version": "1.2.6",
+  "description": "",
+  "version": "1.0.0",
   "license": "private",
   "scripts": {
     "ng": "ng",

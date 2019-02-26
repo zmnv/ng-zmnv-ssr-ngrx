@@ -1,8 +1,11 @@
 # ZMNV PACK
 
-1. HMR
-2. SCSS
-3. PreStyles
+* SSR
+* HMR
+* NGRX
+* ZMNV STYLES
+* Material
+
 
 Based on:
 
