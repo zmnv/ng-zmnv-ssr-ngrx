@@ -7,9 +7,13 @@ export const COMPONENTS = [
   AppComponent,
 ];
 
+export const MODULES = [
+  SharedModule
+];
+
 @NgModule({
-  imports: [SharedModule],
+  imports: [MODULES],
   declarations: [...COMPONENTS],
-  exports: [SharedModule, ...COMPONENTS]
+  exports: [...MODULES, ...COMPONENTS]
 })
 export class CoreModule {}

@@ -1,1 +1,1 @@
-export * from './scroll.service';
+export * from './meta.service';
